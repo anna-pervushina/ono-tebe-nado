@@ -31,8 +31,8 @@
     list-style-type: none;
 }
 .header__links-list-item {
-    text-decoration: underline ;
-    text-underline-offset: 2px;
+    text-decoration: underline;
+    text-underline-offset: 0.2em;
 }
 .header__logo {
     margin-right: 450px;
@@ -144,8 +144,7 @@ button {
     text-align: center;
     border: 1px solid #fff;
 }
-.lots {
-    margin:0 auto;
+.lots {    
     margin: 179px 24px 146px;
 
 }
@@ -320,6 +319,10 @@ p {
   }
   .footer__menu-link {
     text-decoration: none;
+  }
+.footer__menu-link_active {
+    text-decoration: underline;
+    text-underline-offset: 0.2em;
   }
   .footer__social-list {
     list-style-type: none;
